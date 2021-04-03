@@ -13,7 +13,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         ,dryRun = false
         ,monochrome=true
         ,strict = true
-       // ,tags = {"@test"}
+        ,tags = "@scenario1 or @scenario2 or @scenario3"
         // ,tags = {"@foo", "not @bar"}
         //,features = {"src/test/resources"}
 )
